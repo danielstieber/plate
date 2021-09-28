@@ -7,5 +7,5 @@ mix.js('src/app.js', 'public/js')
   ])
   mix.browserSync({
   	proxy: 'plate.test',
-	files: ["css/app.css", "public/*.php", "public/*.html"]
+    files: ["public/css/app.css", "public/js/app.js", "public/*.php", "public/*.html","src/**/*.php", "src/**/*.html"]
   });

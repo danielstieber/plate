@@ -9,6 +9,7 @@ Includes
 
 ## Usage
 
+* Change Browsersync Proxy in Webpack.mix.js
 * Run `npm install --dev` to install dependencies. 
 * Run `npm run watch` to start with browsersync on your development environment.
 * Run `npm run production` on your production environment.
